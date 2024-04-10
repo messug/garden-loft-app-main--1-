@@ -10,7 +10,7 @@ import {
   Image,
 } from "react-native";
 import React, { useState } from "react";
-import { FIREBASE_AUTH, FIRESTORE_DB } from "@/FirebaseConfig";
+import { FIREBASE_AUTH, FIRESTORE_DB } from "../../../FirebaseConfig";
 import { createUserWithEmailAndPassword } from "@firebase/auth";
 import {signInWithEmailAndPassword} from "@firebase/auth";
 import { doc, setDoc} from 'firebase/firestore';

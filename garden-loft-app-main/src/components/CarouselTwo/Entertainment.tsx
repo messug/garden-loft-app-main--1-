@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Dimensions, Modal, ScrollView
 import { FontAwesome } from '@expo/vector-icons';
 import Carousel from 'react-native-snap-carousel';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { FIRESTORE_DB } from "@/FirebaseConfig";
+import { FIRESTORE_DB } from "../../../FirebaseConfig";
 import { doc, getDoc } from 'firebase/firestore';
 import YoutubePlayer from 'react-native-youtube-iframe';
 

@@ -3,7 +3,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 // import { TwilioVoice } from 'react-native-twilio-programmable-voice'; // Import Twilio Voice SDK
 import * as Linking from 'expo-linking';
 import React, { useState, useRef,useEffect } from "react";
-import { FIREBASE_AUTH, FIRESTORE_DB } from '@/FirebaseConfig';
+import { FIREBASE_AUTH, FIRESTORE_DB } from '../../../FirebaseConfig';
 import {collection, getDocs} from 'firebase/firestore';
 import { doc, getDoc } from 'firebase/firestore';
 
